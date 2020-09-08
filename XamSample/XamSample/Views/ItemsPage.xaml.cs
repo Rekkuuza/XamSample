@@ -13,7 +13,7 @@ using XamSample.ViewModels;
 
 namespace XamSample.Views
 {
-    public partial class ItemsPage : ContentPage
+    public partial class ItemsPage : BasePage
     {
         ItemsViewModel _viewModel;
 

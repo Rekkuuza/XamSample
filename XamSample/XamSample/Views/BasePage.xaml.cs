@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using XamSample.ViewModels;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace XamSample.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginPage : BasePage
+    public partial class BasePage : ContentPage
     {
-        public LoginPage()
+        public BasePage()
         {
             InitializeComponent();
-            this.BindingContext = new LoginViewModel();
         }
     }
 }

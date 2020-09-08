@@ -6,7 +6,7 @@ using Xamarin.Forms.Xaml;
 
 namespace XamSample.Views
 {
-    public partial class AboutPage : ContentPage
+    public partial class AboutPage : BasePage
     {
         public AboutPage()
         {

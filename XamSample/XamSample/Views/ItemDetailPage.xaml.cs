@@ -6,7 +6,7 @@ using XamSample.ViewModels;
 
 namespace XamSample.Views
 {
-    public partial class ItemDetailPage : ContentPage
+    public partial class ItemDetailPage : BasePage
     {
         public ItemDetailPage()
         {

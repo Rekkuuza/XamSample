@@ -10,7 +10,7 @@ using XamSample.ViewModels;
 
 namespace XamSample.Views
 {
-    public partial class NewItemPage : ContentPage
+    public partial class NewItemPage : BasePage
     {
         public Item Item { get; set; }
 
